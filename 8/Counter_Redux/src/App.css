@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-display {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #00BFFF;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: #050505;
+  border: 1px solid #00BFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* расстояние между кнопками */
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #00BFFF;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #009acc;
+  
+}
+
+button:disabled {
+  background-color: #004e66;
+  cursor: not-allowed;
+}

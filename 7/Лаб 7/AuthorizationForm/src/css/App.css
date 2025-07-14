@@ -1,0 +1,80 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff0f6;
+  font-family: 'Arial', sans-serif;
+}
+
+.formCard {
+  width: 320px;
+  background-color: #fff9fc;
+  border: 1px solid #ffb6d1;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.3);
+}
+
+h1 {
+  color: #ff69b4;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.8rem 0;
+  border: 1px solid #ffb6d1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #333;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #ff69b4;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4fa3;
+}
+
+.links {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ff69b4;
+}
+
+.links a {
+  text-decoration: none;
+  color: #ff69b4;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.errorMessage {
+  color: #e63946;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 1rem;
+}
